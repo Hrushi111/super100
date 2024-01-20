@@ -83,7 +83,3 @@ class Member:
         available_books = library.get_available_books()
         for book in available_books:
             print(book.title)
-
-        # Output:
-        # To Kill a Mockingbird
-        # 1984
